@@ -6,9 +6,12 @@ import json
 
 
 def edit_input_file(payload = None):
+    """
+    Edits the workspace variables in a MATLAB file (.mat)
+    """
     concentration = 2
 
-    # TODO Get "payload" value to update in input file
+    # TODO Get "payload" value from Deep Lynx to update the workspace variables
     
     # Load workspace variables from .mat file
     matlab_path = os.path.abspath("data")
@@ -23,7 +26,7 @@ def edit_input_file(payload = None):
     # Update variables
     for i in variables:
         print(i)
-        # TODO Update variable in input file
+        # TODO Update workspace variable "i" within "input_file" variable
         # input_file[i] = payload
 
     # Save updated workspace variables to a .mat file

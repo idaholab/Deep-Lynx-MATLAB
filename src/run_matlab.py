@@ -2,9 +2,9 @@ import matlab.engine
 import os 
 import settings
 
-def main():
+def run_matlab():
     """
-    Main entry point for script
+    Runs the MATLAB file (.m) using MATLAB Engine
     """
     # Start MATLAB Engine
     eng = matlab.engine.start_matlab()
@@ -22,7 +22,7 @@ def main():
     eng.quit()
 
 if __name__ == "__main__":
-    main()
+    run_matlab()
 
 
 
