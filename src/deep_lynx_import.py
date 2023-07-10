@@ -1,4 +1,4 @@
-# Copyright 2021, Battelle Energy Alliance, LLC
+# Copyright 2023, Battelle Energy Alliance, LLC
 
 from importlib.metadata import metadata
 import os

@@ -1,3 +1,4 @@
+# Copyright 2023, Battelle Energy Alliance, LLC
 import os
 from scipy.io import loadmat, savemat
 import numpy as np  

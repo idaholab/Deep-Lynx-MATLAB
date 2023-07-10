@@ -1,3 +1,4 @@
+% Copyright 2023, Battelle Energy Alliance, LLC
 % Change directories to data/ folder in repository
 newFolder = cd("Deep-Lynx-MATLAB/data/")
 
